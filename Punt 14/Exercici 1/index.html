@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 1</title>
+</head>
+<body>
+    <script>
+
+        let valor;
+        let suma = 0;
+        do {
+            valor = parseInt(prompt('Entra un número: '));
+            if (valor != 9999) {
+                suma = suma + valor;
+            }
+        } while (valor != 9999);
+        document.write('Total dels números acumulats: ' + suma);
+        document.write('<br>');
+        if (suma > 0) {
+            document.write('El número acumulat és més gran a zero');
+        } else {
+            if (suma == 0) {
+                document.write('El número acumulat és zero');
+            } else {
+                document.write('El número acumulat és més petit a zero');
+            }
+        }
+        
+    </script>
+</body>
+</html>

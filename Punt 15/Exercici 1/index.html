@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 1</title>
+</head>
+<body>
+    <script>
+        let c = 0;
+        
+        for (let f = 1; f <= 3; f++) {
+            let base = parseInt(prompt('Entra la base: '));
+            let altura = parseInt(prompt('Entra la altura: '));
+            let superficie = base * altura / 2;
+            if (superficie > 12) {
+                c++;
+            }
+
+            document.write('Triangle:' + f + '<br>');
+            document.write('Base:' + base + '<br>');
+            document.write('Altura:' + altura + '<br>');
+            document.write('Superfície:' + superficie + '<br>');
+        }
+        document.write('Quantitat de trinagles amb superfície més gran que 12: ' + conta1);
+    </script>
+</body>
+</html>

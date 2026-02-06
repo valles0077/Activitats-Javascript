@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercisi 4</title>
+</head>
+<body>
+    <script>
+
+        let nom;
+        let qp;
+        let qpcorrectes;
+        let percentatge;
+
+        nom = prompt ('Entra el nom: ');
+        qp = prompt ('Entra la quantitat de preguntes: ');
+        qpcorrectes = prompt ('Quantitat de preguntes correctes: ');
+
+        percentatge=qpcorrectes/qp*100;
+
+        if (percentatge>=90) {
+            document.write ('Nivell superior');
+        }
+
+        if (percentatge>=75) {
+            document.write ('Nivell mitjà');
+        }
+
+        if (percentatge>=50) {
+            document.write ('Nivell regular');
+        }
+
+        if (percentatge<50) {
+            document.write ('Fora de nivell');
+        }
+
+
+    </script>
+</body>
+</html>

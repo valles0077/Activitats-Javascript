@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 6</title>
+</head>
+<body>
+    <script>
+        let q1 = 0;
+        let q2 = 0;
+        let q3 = 0;
+        let q4 = 0;
+
+        let quantitat = parseInt(prompt('Entra un número el qual serà els punts que proessarà: '));
+        quantitat = parseInt(quantitat);
+
+        for (let i = 1; i <= quantitat; i++) {
+            let x = parseInt(prompt('Entra coordenada x:'));
+            let y = parseInt(prompt('Entra coordenada y:'));
+            if (x > 0 && y > 0) {
+                q1++;
+            } else {
+                if (x < 0 && y > 0) {
+                    q2++;
+                } else {
+                    if (x < 0 && y < 0) {
+                        q3++;
+                    } else {
+                        if (x > 0 && y < 0) {
+                            q4++;
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
