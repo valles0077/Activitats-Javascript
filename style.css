@@ -1,6 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0px;
+    background: #2a469b;
+    background: linear-gradient(90deg, rgba(42, 70, 155, 1) 0%, rgba(42, 123, 155, 1) 40%, rgba(87, 199, 133, 1) 74%, rgba(206, 235, 61, 1) 100%);
 }
 
 div {
@@ -11,9 +13,21 @@ div {
     border-radius: 10px;
 }
 
+#titol {
+    background-color: #f2f2f2;
+    background-color: rgba(255, 255, 255, 0.637);
+}
+
 h2 {
     text-align: center;
     font-size: 45px;
+    margin-top: 80px;
+    color: #1e3a8a;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
     margin-top: 80px;
     color: #1e3a8a;
 }
@@ -25,6 +39,7 @@ h2 {
     justify-content: center;
     height: 100%;
     background-color: #f2f2f2;
+    background-color: rgba(255, 255, 255, 0.637);
 }
 
 #projectes h2 {
@@ -39,20 +54,19 @@ h2 {
 }
 
 #links a {
-    padding: 15px;
-    min-width: 200px;
+    padding: 20px;
+    min-width: 250px;
     text-align: center;
-    font-size: 16px;
-    border-radius: 100px;
+    font-size: 17px;
+    border-radius: 15px;
     background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
     color: white;
     text-decoration: none;
+    transition: box-shadow 0.5s ease; 
 }
 
 #links a:hover {
-    background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 58%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(42, 70, 155, 1) 0%, rgba(42, 123, 155, 1) 40%, rgba(87, 199, 133, 1) 74%, rgba(206, 235, 61, 1) 100%);
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
 }
-
 
